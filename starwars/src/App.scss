@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: column;
+  text-align: center;
+}
+.Header {
+  color: white;
+  text-shadow: 1px 1px 5px grey;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+strong {
+  font-weight: 600;
+}
+
+/* write your parent styles in here for your App.js */
