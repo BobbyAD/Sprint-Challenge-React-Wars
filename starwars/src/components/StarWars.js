@@ -6,8 +6,8 @@ class StarWars extends React.Component {
         super(props);
         this.state = {
             character: props.character,
-            homeworld: "",
-            species: "",
+            homeworld: '',
+            species: '',
         };
     }
 
