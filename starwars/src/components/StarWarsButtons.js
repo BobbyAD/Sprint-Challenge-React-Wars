@@ -1,4 +1,5 @@
 import React from 'react';
+import './StarWarsButtons.scss'
 
 const StarWarsButtons = props => {
     return(

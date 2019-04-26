@@ -41,7 +41,7 @@ class App extends Component {
     nextPage = event => {
         event.preventDefault();
         if (this.state.next) {
-            this.getCharacters(this.state.next)
+            this.getCharacters(this.state.next);
         }
     }
 
@@ -61,7 +61,10 @@ class App extends Component {
                         <StarWars character={element} key={element.created} />
                     ))}
                 </div>
-                <StarWarsButtons prev={this.prevPage} next={this.nextPage}/>
+                <StarWarsButtons 
+                    prev={this.prevPage} 
+                    next={this.nextPage} 
+                />
 
             </div>
         );
