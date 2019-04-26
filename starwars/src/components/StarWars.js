@@ -1,4 +1,5 @@
 import React from 'react';
+import './StarWars.scss';
 
 const StarWars = props => {
     return (
@@ -8,7 +9,10 @@ const StarWars = props => {
                 <strong>Birth Year:</strong> {props.character.birth_year}
             </p>
             <p>
-                <strong>Eye Color:</strong> {props.character.eye_color}
+                <strong>Gender:</strong> {props.character.gender}
+            </p>
+            <p>
+                <strong>Height:</strong> {props.character.height}cm
             </p>
         </div>
     );
